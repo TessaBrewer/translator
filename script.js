@@ -20,19 +20,87 @@ button.addEventListener("click", function(event)
             output.innerHTML = "Guten Tag";
             console.log("German");
             break;
+          case 'icelandic':
+            output.innerHTML = "Halló";
+            console.log("Icelandic");
+            break;
+          case 'gaelic':
+            output.innerHTML = "Dia dhuit";
+            console.log("Gaelic");
+            break;
         }
         break;
       case 'goodbye':
         console.log("Goodbye");
+        switch(languageText)
+        {
+          case 'german':
+            output.innerHTML = "Auf Wiedersehen";
+            console.log("German");
+            break;
+          case 'icelandic':
+            output.innerHTML = "Bless";
+            console.log("Icelandic");
+            break;
+          case 'gaelic':
+            output.innerHTML = "Slán";
+            console.log("Gaelic");
+            break;
+        }
         break;
       case 'yes':
         console.log("Yes");
+        switch(languageText)
+        {
+          case 'german':
+            output.innerHTML = "Ja";
+            console.log("German");
+            break;
+          case 'icelandic':
+            output.innerHTML = "Já";
+            console.log("Icelandic");
+            break;
+          case 'gaelic':
+            output.innerHTML = "Is féidir";
+            console.log("Gaelic");
+            break;
+        }
         break;
       case 'no':
         console.log("No");
+        switch(languageText)
+        {
+          case 'german':
+            output.innerHTML = "Nein";
+            console.log("German");
+            break;
+          case 'icelandic':
+            output.innerHTML = "Nr";
+            console.log("Icelandic");
+            break;
+          case 'gaelic':
+            output.innerHTML = "Níl";
+            console.log("Gaelic");
+            break;
+        }
         break;
       case 'maybe':
         console.log("Maybe");
+        switch(languageText)
+        {
+          case 'german':
+            output.innerHTML = "könnte sein";
+            console.log("German");
+            break;
+          case 'icelandic':
+            output.innerHTML = "Kannski";
+            console.log("Icelandic");
+            break;
+          case 'gaelic':
+            output.innerHTML = "B'fhéidir";
+            console.log("Gaelic");
+            break;
+        }
         break;
     }
   }
