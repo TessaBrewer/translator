@@ -1,13 +1,14 @@
 <html>
   <header>
     <title>translator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </header>
   <body>
     <form>
       <label for="text">What do you want to translate?</label>
       <input type="text" id="text" list="textList" required pattern=
       "[Hh]ello|[Gg]oodbye|[Yy]es|[Nn]o|[Mm]aybe">
-      <datalist id="languageList">
+      <datalist id="textList">
         <option>Hello</option>
         <option>Goodbye</option>
         <option>Yes</option>
@@ -23,7 +24,7 @@
         <option>Icelandic</option>
         <option>Gaelic</option>
       </datalist>
-      <button type="button" id="submit">Translate</button>
+      <button type="button" id="submit" accesskey="t">Translate</button>
     </form>
     <span id="output"></span>
   </body>
