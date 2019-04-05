@@ -21,7 +21,7 @@ button.addEventListener("click", function(event)
             console.log("German");
             break;
           case 'icelandic':
-            output.innerHTML = "Halló";
+            output.innerHTML = "Hall&oacute;";
             console.log("Icelandic");
             break;
           case 'gaelic':
@@ -43,7 +43,7 @@ button.addEventListener("click", function(event)
             console.log("Icelandic");
             break;
           case 'gaelic':
-            output.innerHTML = "Slán";
+            output.innerHTML = "Sl&aacute;n";
             console.log("Gaelic");
             break;
         }
@@ -57,11 +57,11 @@ button.addEventListener("click", function(event)
             console.log("German");
             break;
           case 'icelandic':
-            output.innerHTML = "Já";
+            output.innerHTML = "J&aacute;";
             console.log("Icelandic");
             break;
           case 'gaelic':
-            output.innerHTML = "Is féidir";
+            output.innerHTML = "Is f&eacute;idir";
             console.log("Gaelic");
             break;
         }
@@ -79,7 +79,7 @@ button.addEventListener("click", function(event)
             console.log("Icelandic");
             break;
           case 'gaelic':
-            output.innerHTML = "Níl";
+            output.innerHTML = "N&iacute;l";
             console.log("Gaelic");
             break;
         }
@@ -89,7 +89,7 @@ button.addEventListener("click", function(event)
         switch(languageText)
         {
           case 'german':
-            output.innerHTML = "könnte sein";
+            output.innerHTML = "k&ouml;nnte sein";
             console.log("German");
             break;
           case 'icelandic':
@@ -97,7 +97,7 @@ button.addEventListener("click", function(event)
             console.log("Icelandic");
             break;
           case 'gaelic':
-            output.innerHTML = "B'fhéidir";
+            output.innerHTML = "B'fh&eacute;idir";
             console.log("Gaelic");
             break;
         }
