@@ -1,0 +1,21 @@
+<html>
+  <header>
+    <title>translator</title>
+  </header>
+  <body>
+    <form>
+      <label for="text">What do you want to translate?</label>
+      <input type="text" id="text" list="text" required pattern="">
+
+      <label for="language">Which Language?</label>
+      <input type="text" id="language" list="language" required pattern=
+      "[Gg]erman|[Ii]celandic|[Gg]aelic">
+      <datalist id="language">
+        <option>German</option>
+        <option>Icelandic</option>
+        <option>Gaelic</option>
+      </datalist>
+    </form>
+  </body>
+  <script src="script.js" type="text/javascript"></script>
+</html>
