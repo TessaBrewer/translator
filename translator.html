@@ -5,16 +5,25 @@
   <body>
     <form>
       <label for="text">What do you want to translate?</label>
-      <input type="text" id="text" list="text" required pattern="">
+      <input type="text" id="text" list="textList" required pattern=
+      "[Hh]ello|[Gg]oodbye|[Yy]es|[Nn]o|[Mm]aybe">
+      <datalist id="languageList">
+        <option>Hello</option>
+        <option>Goodbye</option>
+        <option>Yes</option>
+        <option>No</option>
+        <option>Maybe</option>
+      </datalist>
 
       <label for="language">Which Language?</label>
-      <input type="text" id="language" list="language" required pattern=
+      <input type="text" id="language" list="languageList" required pattern=
       "[Gg]erman|[Ii]celandic|[Gg]aelic">
-      <datalist id="language">
+      <datalist id="languageList">
         <option>German</option>
         <option>Icelandic</option>
         <option>Gaelic</option>
       </datalist>
+      <button type="submit">Translate</button>
     </form>
   </body>
   <script src="script.js" type="text/javascript"></script>
